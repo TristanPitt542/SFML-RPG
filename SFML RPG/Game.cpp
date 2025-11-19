@@ -4,6 +4,7 @@
 Game::Game()
 {
     this->InitWindow();
+    this->InitKeys();
     this->InitStates();
 }
 
@@ -45,12 +46,28 @@ void Game::InitWindow()
 
 }
 
+void Game::InitKeys()
+{
+    this->supportedKeys.emplace("Escape", sf::Keyboard::Key::Escape);
+    this->supportedKeys.emplace("A", sf::Keyboard::Key::A);
+    this->supportedKeys.emplace("D", sf::Keyboard::Key::D);
+    this->supportedKeys.emplace("W", sf::Keyboard::Key::W);
+    this->supportedKeys.emplace("S", sf::Keyboard::Key::S);
+
+    std::cout << this->supportedKeys.at("A") << std::endl;
+}
+
 void Game::InitStates()
 {
-    this->states.push(new GameState(this->window));
+    this->states.push(new GameState(this->window, &this->supportedKeys));
 }
 
 // Functions
+void Game::EndApplication()
+{
+    std::cout << "Ending Application" << std::endl;
+}
+
 void Game::UpdateDt()
 {
     this->dt = this->dtClock.restart().asSeconds();
@@ -70,7 +87,24 @@ void Game::Update()
     this->UpdateSFMLEvents();
 
     if (!this->states.empty())
+    {
         this->states.top()->Update(this->dt);
+
+        if (this->states.top()->GetQuit())
+        {
+            //Quit events here
+            this->states.top()->EndState();
+            delete this->states.top();
+            this->states.pop();
+        }
+    }
+    // Application end
+    else
+    {
+        this->EndApplication();
+        this->window->close();
+    }
+
 }
 
 void Game::Render()

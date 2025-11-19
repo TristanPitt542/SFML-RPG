@@ -14,8 +14,11 @@ private:
 
 	std::stack<State*> states;
 
+	std::map<std::string, int> supportedKeys;
+
 	//Initialize
 	void InitWindow();
+	void InitKeys();
 	void InitStates();
 
 public:
@@ -23,10 +26,21 @@ public:
 	Game();
 	virtual ~Game();
 
-	// Functions
+	/* ======================== */
+	/*         Functions        */
+	/* ======================== */
+
+	// Regular
+	void EndApplication();
+
+	// Update
 	void UpdateDt();
 	void UpdateSFMLEvents();
 	void Update();
+
+	// Render
 	void Render();
+	
+	// Core
 	void Run();
 };
