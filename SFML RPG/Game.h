@@ -1,34 +1,32 @@
-#ifndef Game_H
-#define Game_H
+#pragma once
 
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Window.hpp>
+#include "GameState.h"
 
 class Game
 {
 private:
-	//variables
+	// Variables
 	sf::RenderWindow* window;
 	sf::Event sfEvent;
 
 	sf::Clock dtClock;
 	float dt;
 
+	std::stack<State*> states;
+
 	//Initialize
 	void InitWindow();
+	void InitStates();
+
 public:
-	//Constructor/Destructor
+	// Constructor/Destructor
 	Game();
 	virtual ~Game();
 
-	//Functions
-	void Update();
+	// Functions
 	void UpdateDt();
 	void UpdateSFMLEvents();
+	void Update();
 	void Render();
 	void Run();
 };
-#endif

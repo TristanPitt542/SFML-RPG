@@ -1,4 +1,80 @@
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
+# ============================
+# Visual Studio
+# ============================
+
+## Ignore Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+## VS cache
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# ============================
+# C++ / Compilation
+# ============================
+*.obj
+*.o
+*.pch
+*.pdb
+*.idb
+*.dll
+*.exe
+*.ilk
+*.lib
+*.exp
+*.cache
+*.log
+
+# ============================
+# SFML Specific
+# ============================
+
+# Ignore SFML DLLs if you copy them locally
+*.dll
+
+# Ignore SFML build folders if you're building SFML from source
+SFML-build/
+SFML-install/
+extlibs/
+
+# ============================
+# CMake (if used)
+# ============================
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+Makefile
+*.cmake
+
+# ============================
+# Other
+# ============================
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backups
+*~
+*.bak
+
