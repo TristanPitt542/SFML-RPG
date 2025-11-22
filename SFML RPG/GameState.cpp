@@ -2,10 +2,20 @@
 
 void GameState::InitKeyBinds()
 {
-	this->keyBinds.emplace("Move_Left", this->supportedKeys->at("A"));
-	this->keyBinds.emplace("Move_Right", this->supportedKeys->at("D"));
-	this->keyBinds.emplace("Move_Up", this->supportedKeys->at("W"));
-	this->keyBinds.emplace("Move_Down", this->supportedKeys->at("S"));
+	std::ifstream ifs("Config/GameState_keybinds.ini");
+
+	if (ifs.is_open())
+	{
+		std::string key = "";
+		std::string key2 = "";
+
+		while (ifs >> key >> key2)
+		{
+			this->keyBinds[key] = this->supportedKeys->at(key2);
+		}
+	}
+
+	ifs.close();
 }
 
 GameState::GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys) : State(window, supportedKeys)
@@ -47,6 +57,8 @@ void GameState::UpdateInput(const float& dt)
 
 void GameState::Update(const float& dt)
 {
+	this->UpdateMousePositions();
+
 	this->UpdateInput(dt);
 
 	this->player.Update(dt);

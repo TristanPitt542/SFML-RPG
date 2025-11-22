@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\MainMenuState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40D801E6-15F7-456F-AD06-700C8E744CA9}|SFML RPG\\SFML RPG.vcxproj|solutionrelative:SFML RPG\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 343,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Game.cpp",
               "RelativeDocumentMoniker": "SFML RPG\\Game.cpp",
               "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Game.cpp",
               "RelativeToolTip": "SFML RPG\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAEwEQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-19T15:32:49.332Z",
+              "WhenOpened": "2025-11-22T00:26:47.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameState.h",
-              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.h",
-              "RelativeDocumentMoniker": "SFML RPG\\GameState.h",
-              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.h",
-              "RelativeToolTip": "SFML RPG\\GameState.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Entity.h",
+              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Entity.h",
+              "RelativeDocumentMoniker": "SFML RPG\\Entity.h",
+              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Entity.h",
+              "RelativeToolTip": "SFML RPG\\Entity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-19T15:23:30.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameState.cpp",
-              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.cpp",
-              "RelativeDocumentMoniker": "SFML RPG\\GameState.cpp",
-              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\GameState.cpp",
-              "RelativeToolTip": "SFML RPG\\GameState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-19T15:23:29.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "State.cpp",
-              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.cpp",
-              "RelativeDocumentMoniker": "SFML RPG\\State.cpp",
-              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.cpp",
-              "RelativeToolTip": "SFML RPG\\State.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-19T15:23:20.482Z",
+              "WhenOpened": "2025-11-21T23:53:10.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "State.h",
-              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.h",
-              "RelativeDocumentMoniker": "SFML RPG\\State.h",
-              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\State.h",
-              "RelativeToolTip": "SFML RPG\\State.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Title": "MainMenuState.h",
+              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.h",
+              "RelativeDocumentMoniker": "SFML RPG\\MainMenuState.h",
+              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.h",
+              "RelativeToolTip": "SFML RPG\\MainMenuState.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-19T15:22:34.619Z",
+              "WhenOpened": "2025-11-21T23:52:36.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuState.cpp",
+              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.cpp",
+              "RelativeDocumentMoniker": "SFML RPG\\MainMenuState.cpp",
+              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\MainMenuState.cpp",
+              "RelativeToolTip": "SFML RPG\\MainMenuState.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAEMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-21T23:52:35.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Button.h",
+              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.h",
+              "RelativeDocumentMoniker": "SFML RPG\\Button.h",
+              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.h",
+              "RelativeToolTip": "SFML RPG\\Button.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-22T00:13:07.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Button.cpp",
+              "DocumentMoniker": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.cpp",
+              "RelativeDocumentMoniker": "SFML RPG\\Button.cpp",
+              "ToolTip": "C:\\Users\\Trist\\source\\repos\\SFML RPG\\SFML-RPG\\SFML RPG\\Button.cpp",
+              "RelativeToolTip": "SFML RPG\\Button.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-21T23:51:50.241Z",
               "EditorCaption": ""
             }
           ]

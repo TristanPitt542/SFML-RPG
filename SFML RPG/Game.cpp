@@ -7,7 +7,7 @@ Game::Game()
     this->InitKeys();
     this->InitStates();
 }
-
+ 
 // Destructor
 Game::~Game()
 {
@@ -48,18 +48,25 @@ void Game::InitWindow()
 
 void Game::InitKeys()
 {
-    this->supportedKeys.emplace("Escape", sf::Keyboard::Key::Escape);
-    this->supportedKeys.emplace("A", sf::Keyboard::Key::A);
-    this->supportedKeys.emplace("D", sf::Keyboard::Key::D);
-    this->supportedKeys.emplace("W", sf::Keyboard::Key::W);
-    this->supportedKeys.emplace("S", sf::Keyboard::Key::S);
+    std::ifstream ifs("Config/Supported_keys.ini");
 
-    std::cout << this->supportedKeys.at("A") << std::endl;
+    if (ifs.is_open())
+    {
+        std::string key = "";
+        int keyValue = 0;
+
+        while (ifs >> key >> keyValue)
+        {
+            this->supportedKeys[key] = keyValue;
+        }
+    }
+
+    ifs.close();
 }
 
 void Game::InitStates()
 {
-    this->states.push(new GameState(this->window, &this->supportedKeys));
+    this->states.push(new MainMenuState(this->window, &this->supportedKeys));
 }
 
 // Functions
