@@ -1,36 +1,3 @@
-#pragma once
-
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
-#include <fstream>
-#include <sstream>
-#include <stack>
-#include <map>
-
-// SFML include
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Window.hpp>
-
-class Entity
-{
-private:
-
-protected:
-	sf::RectangleShape shape;
-	float movementSpeed;
-
-public:
-	Entity();
-	virtual ~Entity();
-
-	//Functions
-	virtual void Move(const float& dt, const float x, const float y);
-
-	virtual void Update(const float& dt);
-	virtual void Render(sf::RenderTarget* target);
-
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d58cabe16c098169b6798db987e641cd2a25d571661a06a00363382106cff61
+size 631

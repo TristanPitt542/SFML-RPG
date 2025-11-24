@@ -1,31 +1,3 @@
-#pragma once
-#include "GameState.h"
-#include "Button.h"
-
-class MainMenuState : public State
-{
-private:
-	// Varriables
-	sf::RectangleShape background;
-	sf::Font font;
-
-	Button* gameState_btn;
-	//Functions
-	void InitFonts();
-	void InitKeyBinds();
-
-public:
-	// Constructor
-	MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys);
-	// Destructor
-	virtual ~MainMenuState();
-
-	// Functions
-	void EndState();
-
-	void UpdateInput(const float& dt);
-	void Update(const float& dt);
-	void Render(sf::RenderTarget* target = nullptr);
-
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f418d220289b3ea6e163546e9d01a818de1260cbfb0e104bd56b8bef600b7a2
+size 733

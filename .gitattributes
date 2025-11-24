@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# SFML libs
+*.lib filter=lfs diff=lfs merge=lfs -text
+# SFML dlls
+*.dll filter=lfs diff=lfs merge=lfs -text
+# SFML debug symbols
+*.pdb filter=lfs diff=lfs merge=lfs -text
+# Assets you expect to be big
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.cpp filter=lfs diff=lfs merge=lfs -text
+*.h filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text

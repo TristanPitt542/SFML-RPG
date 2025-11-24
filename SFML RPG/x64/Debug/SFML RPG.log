@@ -1,2 +1,77 @@
 ﻿  Button.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Button.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Entity.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Entity.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Game.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  GameState.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'GameState.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  main.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  MainMenuState.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'MainMenuState.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         with
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         [
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:             T=unsigned int
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         ]
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         and
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         [
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:             T=float
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,78): warning C4244:         ]
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         with
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         [
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:             T=unsigned int
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         ]
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         and
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         [
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:             T=float
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\MainMenuState.cpp(44,57): warning C4244:         ]
+  State.cpp
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'State.cpp')
+      D:\VisualStudio\IDE\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\SFML RPG\State.cpp(13,22): warning C4101: 'states': unreferenced local variable
+  Generating Code...
   SFML RPG.vcxproj -> C:\Users\Trist\source\repos\SFML RPG\SFML-RPG\x64\Debug\SFML RPG.exe
